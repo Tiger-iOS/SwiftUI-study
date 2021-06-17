@@ -11,7 +11,7 @@ import SwiftUI
 struct SwiftUI_SApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView().environmentObject(Ring())
         }
     }
 }

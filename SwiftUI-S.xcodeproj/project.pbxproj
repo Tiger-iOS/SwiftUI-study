@@ -13,6 +13,8 @@
 		886543C1267AE7D400714CDB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 886543C0267AE7D400714CDB /* Preview Assets.xcassets */; };
 		886543CC267AE7D500714CDB /* SwiftUI_STests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886543CB267AE7D500714CDB /* SwiftUI_STests.swift */; };
 		886543D7267AE7D500714CDB /* SwiftUI_SUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886543D6267AE7D500714CDB /* SwiftUI_SUITests.swift */; };
+		886543E6267AF2AB00714CDB /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886543E4267AF2AB00714CDB /* Model.swift */; };
+		886543E7267AF2AB00714CDB /* WedgeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 886543E5267AF2AB00714CDB /* WedgeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +47,8 @@
 		886543D2267AE7D500714CDB /* SwiftUI-SUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "SwiftUI-SUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		886543D6267AE7D500714CDB /* SwiftUI_SUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUI_SUITests.swift; sourceTree = "<group>"; };
 		886543D8267AE7D500714CDB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		886543E4267AF2AB00714CDB /* Model.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		886543E5267AF2AB00714CDB /* WedgeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WedgeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,8 @@
 			children = (
 				886543B9267AE7D200714CDB /* SwiftUI_SApp.swift */,
 				886543BB267AE7D200714CDB /* ContentView.swift */,
+				886543E4267AF2AB00714CDB /* Model.swift */,
+				886543E5267AF2AB00714CDB /* WedgeView.swift */,
 				886543BD267AE7D400714CDB /* Assets.xcassets */,
 				886543C2267AE7D400714CDB /* Info.plist */,
 				886543BF267AE7D400714CDB /* Preview Content */,
@@ -259,6 +265,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				886543E6267AF2AB00714CDB /* Model.swift in Sources */,
+				886543E7267AF2AB00714CDB /* WedgeView.swift in Sources */,
 				886543BC267AE7D200714CDB /* ContentView.swift in Sources */,
 				886543BA267AE7D200714CDB /* SwiftUI_SApp.swift in Sources */,
 			);
@@ -427,10 +435,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "tigeriOS.SwiftUI-S";
+				PRODUCT_BUNDLE_IDENTIFIER = tiger.test01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -449,10 +457,10 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "tigeriOS.SwiftUI-S";
+				PRODUCT_BUNDLE_IDENTIFIER = tiger.test01;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
